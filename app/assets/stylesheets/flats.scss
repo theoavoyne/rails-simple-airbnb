@@ -1,3 +1,35 @@
 // Place all the styles related to the flats controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.card {
+  margin-right: 2%;
+  flex: 0 0 32%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.number_of_guests, .price_per_night {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-footer {
+  background-color: white;
+  padding: 15px 25px;
+}
+
+.card-content {
+  padding: 25px 25px 15px 25px;
+  background-color: rgb(230, 230, 230);
+  h2 {
+    margin-top: 0;
+  }
+}
