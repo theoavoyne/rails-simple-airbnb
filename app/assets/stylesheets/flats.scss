@@ -17,8 +17,8 @@
 }
 
 .number_of_guests, .price_per_night {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 22px;
+  margin-right: 10px;
 }
 
 .card-footer {
@@ -32,4 +32,39 @@
   h2 {
     margin-top: 0;
   }
+}
+
+.row {
+  display: flex;
+  margin-top: 25px;
+}
+
+.left-col {
+  flex: 0 0 64%;
+  margin-right: 4%;
+}
+
+.right-col {
+  flex: 0 0 32%;
+}
+
+.white-box {
+  padding: 10px 25px;
+  background-color: rgb(230, 230, 230);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  margin: 25px 0;
+  p {
+    font-size: 24px;
+  }
+}
+
+.social-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-networks {
+  font-size: 26px;
 }

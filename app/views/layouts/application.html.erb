@@ -13,7 +13,9 @@
 
   <body>
     <div id="navbar">
-      <span class="website-title">Simple Airbnb</span>
+      <%= link_to flats_path do %>
+        <span class="website-title">Simple Airbnb</span>
+      <% end %>
       <%= link_to "Add a flat", flats_path, {class: 'btn btn-primary'} %>
     </div>
     <div class="container">
